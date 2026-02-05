@@ -4,15 +4,11 @@
 echo "os_list:" >> ./id.yml
 cat device/bela-pocketbeagle2-am62/bela-stable.yml >> ./id.yml
 
-if [ -f /usr/bin/yq ] ; then
-	cat ./id.yml | yq > os_list.json
-fi
+cat ./id.yml | yq > os_list.json
 rm ./id.yml
 
-if [ -f /usr/bin/jq ] ; then
-	cat os_list.json | jq > os_list.json.bak
-	mv os_list.json.bak os_list.json
-fi
+cat os_list.json | jq > os_list.json.bak
+mv os_list.json.bak os_list.json
 
 if [ -f /usr/bin/jsonlint-php ] ; then
 	jsonlint-php os_list.json
