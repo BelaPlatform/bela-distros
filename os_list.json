@@ -4,17 +4,16 @@
       "name": "Bela Gem PocketBeagle 2 Debian 12 v6.12.x-ti-evl",
       "description": "Debian 12 (Bookworm) with Bela environment for PocketBeagle 2 based on TI AM62 processor",
       "icon": "https://raw.githubusercontent.com/BelaPlatform/bela_sample/refs/heads/master/src/images/bela_logo_colour.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-13.3-base-v6.12-arm64-2026-01-30-8gb.img.xz",
-      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/pocketbeagle2-debian-13.3-base-v6.12-arm64-2026-01-30-8gb.bmap",
+      "url": "https://github.com/BelaPlatform/gem-image-builder/releases/download/v1.0.0/pocketbeagle2-debian-12.13-bela-v6.12-arm64-2026-02-05-8gb.img.xz",
+      "bmap": "https://raw.githubusercontent.com/BelaPlatform/bela-distros/refs/heads/main/bmap-temp/pocketbeagle2-debian-12.13-bela-v6.12-arm64-2026-02-05-8gb.bmap",
       "extract_size": 7818182656,
-      "extract_sha256": "e1c396d354f1ff115a660b3b590c847c9dcb5a9123eb443ab2a7eedb6c4763c5",
-      "image_download_size": 555558392,
-      "image_download_sha256": "6f73dd6fb9cb4b594ef73dd21268be92687b7ce3400102e586c40503ca5076be",
-      "release_date": "2026-01-30",
+      "extract_sha256": "36db18215152e339dd347399a0cd1d7559582fb8ed0ca084913b714f99ffb117",
+      "image_download_size": 1385612832,
+      "image_download_sha256": "62f383ad1c55b24c3fae28126d4cdef0b226dcf2da9bb9aede9051c6a122ce7a",
+      "release_date": "2026-02-05",
       "init_format": "sysconf",
       "devices": [
-        "pocketbeagle2-am62",
-        "recommended"
+        "pocketbeagle2-am62"
       ]
     }
   ]
